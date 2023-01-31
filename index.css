@@ -1,0 +1,25 @@
+body{
+    background-color:bisque;
+    height: 100%;
+    width: 100%;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+#img{
+    --shape: 50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%;
+    clip-path: polygon(var(--shape));
+    height: 300px;
+    cursor: pointer;
+}
+
+.clip-path{
+    display: flex;
+    justify-content: center; 
+}
+
